@@ -17,11 +17,6 @@ public class MessageController {
                 case "chatid":
                     ApiWA.sendChatId(message.getChatId());
                     break;
-                case "file":
-                    var texts = message.getBody().split(" ");
-                    if (texts.length > 1)
-                        ApiWA.sendFile(message.getChatId(), texts[1]);
-                    break;
                 case "ogg":
                     ApiWA.sendOgg(message.getChatId());
                     break;
