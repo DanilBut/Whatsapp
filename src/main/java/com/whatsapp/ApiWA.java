@@ -14,8 +14,8 @@ import java.util.concurrent.CompletableFuture;
 public class ApiWA {
 
 
-    private static String APIURL = "https://eu115.chat-api.com/instance123456/";
-    private static String TOKEN = "1hi0xwfzaen1234";
+    private static String APIURL = "https://api.chat-api.com/instance306529";
+    private static String TOKEN = "fw99rpzs8yy1xlf0";
 
 
     public static CompletableFuture<Void> postJSON(URI uri,
